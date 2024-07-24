@@ -1,0 +1,49 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Go workspace file
+go.work
+
+# Environment variables file
+.env
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS-specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Ent generated files (uncomment if you want to ignore these)
+# ent/*
+# !ent/schema/
+
+# Binary file
+yourproject
+
+# Temporary files
+tmp/
+
+# Air tmp files (if using Air for live reloading)
+tmp/
+
+# Database files (if any local database files)
+*.db
